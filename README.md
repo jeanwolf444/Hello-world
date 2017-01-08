@@ -1,2 +1,4 @@
 # Hello-world
-First project in the guide
+Primo progetto di prova
+
+UN NUOVO PROJECT
