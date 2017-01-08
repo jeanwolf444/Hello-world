@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Display</title>
+  <link href="stile1.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+  #1, #2 {
+    display:inline;
+  }
+  #3 {
+    display:inline-block;
+  }
+  #4 {
+    display: none;
+  }
+  .class {
+    background: red;
+  }
+  #a {
+    background-color: red;
+    float:left;
+  }
+  #b {
+    background-color: red;
+    float:right;
+  }
+  #c {
+    background-color:green;
+    clear:both;
+  }
+  #r {
+    position:relative;
+    right: 40px;
+  }
+  #ab {
+    position:absolute;
+    right: 50px;
+  }
+  #f {
+    position:fixed;
+    bottom:60px;
+  }
+  #in {
+    visibility: hidden;
+  }
+  #z1 {
+    position:absolute;
+    right:50px;
+    z-index:1;
+  }
+  #z2 {
+    position:absolute;
+    right:170px;
+    z-index:2;
+  }
+  #z3 {
+    position:absolute;
+    right:290px;
+    z-index:3;
+  }
+  </style>
+</head>
+<body>
+  <div>
+    <p id="1">Pragrafo con propriet&agrave inline</p>
+  <p id="2">Secondo paragrafo inline</p>
+  <img id="3" src="gym-512.png">
+  <p>Pragrafo</p>
+  <p id="4">csrrrwvnhwv</p>
+  <p>skfskfjfj</p>
+</div>
+
+  <div id="a">
+    <h1>Esempio propriet&agrave float left</h1>
+  </div>
+
+  <div id="b">
+    <ul>
+      <li>1900</li>
+      <li>1800</li>
+      <li>1700</li>
+      <li>1600</li>
+    </ul>
+  </div>
+
+  <div id="c">
+   <h1>Esempio clear</h1>
+  </div>
+
+  <div>
+    <h1>Posizione box</h1>
+    <div id="r">Box in position:relative</div>
+    <div id="ab">Box in position:absolute</div>
+    <div id="f">Box in position:fixed</div>
+    <div> Sotto questo paragrafo c'&egrave n'&egrave uno nascosto ma che occupa comunque spazio</div>
+    <div id="in">Box invisibile</div>
+    <div id="z3">Box in primo piano</div>
+    <div id="z2">Box in secondo piano</div>
+    <div id="z1">Box in terzo piano</div>
+  </div>
+</body>
+</html>
